@@ -1,6 +1,11 @@
 {
   "name": "Vue-Architect-Standard-Guidelines",
   "version": "0.0.0",
+  "engines": {
+    "node": ">=20.12.2",
+    "npm": "kindly-use-yarn",
+    "yarn": ">=1.22.22"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
