@@ -1,13 +1,23 @@
 {
   "compilerOptions": {
+
+
+    "moduleDetection": "force",   /*This option forces TypeScript to consider all files as modules.*/
+    "noUncheckedIndexedAccess": true, /*Prevents you from accessing an array or object without first checking if it's defined.
+     This is a great way to prevent runtime errors, and should really be included in strict.*/
     "target": "ESNext",
     "jsx": "preserve",
-    "lib": ["DOM", "ESNext"],
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
     "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "node",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": [
+        "src/*"
+      ]
     },
     "resolveJsonModule": true,
     "types": [
@@ -27,6 +37,14 @@
   "include": [
     "./src/typed-router.d.ts"
   ],
-  "exclude": ["dist", "node_modules", "cypress"],
-  "references": [{ "path": "./tsconfig.node.json" }],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "cypress"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }
