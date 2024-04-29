@@ -3,15 +3,14 @@
 This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
 
 ---
- 💿 Install
----
+
+## 💿 Install
 
 Set up your project using your preferred package manager. Use the corresponding command to install the dependencies:
 
-| Package Manager                                                | Command        |
-|---------------------------------------------------------------|----------------|
-| [yarn](https://yarnpkg.com/getting-started)                   | `yarn install` |
-
+| Package Manager                             | Command        |
+| ------------------------------------------- | -------------- |
+| [yarn](https://yarnpkg.com/getting-started) | `yarn install` |
 
 ### Starting the Development Server
 
@@ -20,6 +19,7 @@ To start the development server with hot-reload, run the following command. The 
 ```bash
 yarn dev
 ```
+
 ### Building for Production
 
 To build your project for production, use:
@@ -27,9 +27,10 @@ To build your project for production, use:
 ```bash
 yarn build
 ```
+
 ---
- Engine Locking
----
+
+## Engine Locking
 
 We would like for all developers working on this project to use the same Node engine and package manager we are using.
 To do that we create two new files:
@@ -68,15 +69,14 @@ Note that the use of `engine-strict` didn't specifically say anything about `yar
 }
 ```
 
+---
 
----
-Contribution Guide -  Commit Conventions
----
+## Contribution Guide - Commit Conventions
 
 ### Goals
+
 - Allow ignoring commits by git bisect (not important commits like formatting)
 - Provide better information when browsing the history
-
 
 ### The Rules of a Great Git Commit Message
 
@@ -190,9 +190,10 @@ or in the case of multiple issues:
 `Closes #123, #245, #992`
 
 ---
-# Nice To have (Optional)
-- Automatically open localhost in your browser by adding -`-open --port 8080`
 
+# Nice To have (Optional)
+
+- Automatically open localhost in your browser by adding -`-open --port 8080`
 
 `package.json`
 
@@ -200,12 +201,13 @@ or in the case of multiple issues:
 {
  "scripts": {
     "dev": "vite --open --port 8080"
- 
+
 }
 ```
 
-
 ---
+
 # Reference
+
 - [Quasar Commit Conventions](https://quasar.dev/how-to-contribute/commit-conventions)
 - [How to Build Scalable Architecture for your Next.js Project](https://www.youtube.com/watch?v=Iu5aZDqZt8E&t=2875s)
