@@ -188,3 +188,9 @@ Closed issues should be listed on a separate line in the footer prefixed with "C
 or in the case of multiple issues:
 
 `Closes #123, #245, #992`
+
+
+---
+# Reference
+- [Quasar Commit Conventions](https://quasar.dev/how-to-contribute/commit-conventions)
+- [How to Build Scalable Architecture for your Next.js Project](https://www.youtube.com/watch?v=Iu5aZDqZt8E&t=2875s)
