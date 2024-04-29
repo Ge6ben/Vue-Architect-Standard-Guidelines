@@ -189,6 +189,21 @@ or in the case of multiple issues:
 
 `Closes #123, #245, #992`
 
+---
+# Nice To have (Optional)
+- Automatically open localhost in your browser by adding -`-open --port 8080`
+
+
+`package.json`
+
+```json
+{
+ "scripts": {
+    "dev": "vite --open --port 8080"
+ 
+}
+```
+
 
 ---
 # Reference
