@@ -40,7 +40,17 @@ module.exports = {
     'no-alert': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'vue/require-default-prop': 0,
-    'vue/html-indent': ['error', 4],
+    'vue/html-indent': [
+      'error',
+      2,
+      {
+        attribute: 1,
+        baseIndent: 1,
+        closeBracket: 0,
+        alignAttributesVertically: true,
+        ignores: [],
+      },
+    ],
     'vue/singleline-html-element-content-newline': 0,
     'no-unused-vars': 'off',
     'vue/no-v-html': 'off',
