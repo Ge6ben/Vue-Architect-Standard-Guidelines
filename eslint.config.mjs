@@ -18,7 +18,7 @@ export default defineFlatConfigs(
       "vue/multi-word-component-names": [
         "error",
         {
-          ignores: [ "App",'default','index'],
+          ignores: [ 'default','index'],
         },
       ],
       "@typescript-eslint/no-unused-vars": [

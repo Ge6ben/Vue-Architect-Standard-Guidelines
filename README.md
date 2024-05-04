@@ -211,3 +211,9 @@ or in the case of multiple issues:
 
 - [Quasar Commit Conventions](https://quasar.dev/how-to-contribute/commit-conventions)
 - [How to Build Scalable Architecture for your Next.js Project](https://www.youtube.com/watch?v=Iu5aZDqZt8E&t=2875s)
+- [ESLint and Prettier with Vite and Vue.js 3Ï](https://vueschool.io/articles/vuejs-tutorials/eslint-and-prettier-with-vite-and-vue-js-3/)
+- [eslint-plugin-vue](https://eslint.vuejs.org/user-guide/)
+- [Josh Goldberg - Setting Up ESLint and TypeScript for React](https://www.youtube.com/watch?v=sSJBeWPIipQ)
+- [Embrace the Future: Navigating the New Flat Configuration of ESLint](https://www.raulmelo.me/en/blog/migration-eslint-to-flat-config)
+- [Implement Flat Config](https://github.com/eslint/eslint/issues/13481)
+- [Nuxt Presets for Flat Config](https://nuxt.com/blog/eslint-module#eslint-flat-config)
