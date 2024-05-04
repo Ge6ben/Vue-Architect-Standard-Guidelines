@@ -1,19 +1,66 @@
-/**
- * plugins/vuetify.ts
- *
- * Framework documentation: https://vuetifyjs.com`
- */
-
-// Styles
-import '@mdi/font/css/materialdesignicons.css';
 import 'vuetify/styles';
-
-// Composables
 import { createVuetify } from 'vuetify';
+import { en, zhHans } from 'vuetify/locale';
+import { aliases, mdi } from 'vuetify/iconsets/mdi-svg';
+import { useDark } from '@vueuse/core';
+import { md3 } from 'vuetify/blueprints';
+import type { VDataTable } from 'vuetify/lib/components/index.mjs';
 
-// https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
+export type DataTableHeaders = InstanceType<
+  typeof VDataTable
+>['$props']['headers'];
+
+const theme = {
+  primary: localStorage.getItem('theme-primary') || '#1697f6',
+};
+
 export default createVuetify({
+  blueprint: md3,
+  locale: {
+    locale: 'zhHans',
+    fallback: 'en',
+    messages: { zhHans, en },
+  },
+  defaults: {
+    VSwitch: {
+      color: 'primary',
+    },
+    VDataTable: {
+      fixedHeader: true,
+      hover: true,
+    },
+    VCard: {
+      flat: true,
+      border: true,
+    },
+    VBtn: { color: undefined },
+    VNavigationDrawer: {
+      VList: {
+        nav: true,
+        VListItem: {
+          rounded: 'xl',
+        },
+      },
+    },
+    VChip: { rounded: 'lg' },
+  },
   theme: {
-    defaultTheme: 'dark',
+    defaultTheme: useDark().value ? 'dark' : 'light',
+    themes: {
+      light: {
+        colors: theme,
+      },
+      dark: {
+        colors: theme,
+      },
+    },
+  },
+  icons: {
+    defaultSet: 'mdi',
+    aliases,
+    sets: { mdi },
+  },
+  display: {
+    mobileBreakpoint: 'sm',
   },
 });
