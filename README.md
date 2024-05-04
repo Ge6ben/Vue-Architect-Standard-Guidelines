@@ -68,6 +68,21 @@ Note that the use of `engine-strict` didn't specifically say anything about `yar
 "yarn": ">=1.22.22"
 }
 ```
+# Features
+
+ 
+ 
+- 🗂️ [File based routing](./src/pages)
+
+- 📑 [Layout system](./src/layouts)
+
+- 🍍 [State Management via Pinia](https://pinia.vuejs.org/)
+
+- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
+
+- 🧼 [ESLint flat config](https://eslint.org/docs/latest/use/configure/configuration-files-new) with adapted [@nuxt/eslint](https://github.com/nuxt/eslint), future-proof
+- 🔔 Notification Service 
+
 
 ---
 
@@ -209,6 +224,7 @@ or in the case of multiple issues:
 
 # Reference
 
+- [vitify-electron](https://github.com/kingyue737/vitify-electron)
 - [Quasar Commit Conventions](https://quasar.dev/how-to-contribute/commit-conventions)
 - [How to Build Scalable Architecture for your Next.js Project](https://www.youtube.com/watch?v=Iu5aZDqZt8E&t=2875s)
 - [ESLint and Prettier with Vite and Vue.js 3Ï](https://vueschool.io/articles/vuejs-tutorials/eslint-and-prettier-with-vite-and-vue-js-3/)
@@ -217,3 +233,10 @@ or in the case of multiple issues:
 - [Embrace the Future: Navigating the New Flat Configuration of ESLint](https://www.raulmelo.me/en/blog/migration-eslint-to-flat-config)
 - [Implement Flat Config](https://github.com/eslint/eslint/issues/13481)
 - [Nuxt Presets for Flat Config](https://nuxt.com/blog/eslint-module#eslint-flat-config)
+
+
+
+---
+# TODO
+- [Use vee-validate and Zod for fields validations](https://vee-validate.logaretm.com/v4/integrations/zod-schema-validation/)
+- 🧭 Auto generated navigation drawer and breadcrumbs based on routes

@@ -54,11 +54,6 @@ const items = [
     href: 'https://github.com/vuetifyjs/vuetify',
   },
   {
-    title: 'Vuetify Discord',
-    icon: `mdi-discord`,
-    href: 'https://community.vuetifyjs.com/',
-  },
-  {
     title: 'Vuetify Reddit',
     icon: `mdi-reddit`,
     href: 'https://reddit.com/r/vuetifyjs',

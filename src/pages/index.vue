@@ -1,7 +1,8 @@
 <template>
-  <HelloWorld />
+  <div />
 </template>
-
-<script lang="ts" setup>
-//
+<script setup lang="ts">
+definePage({
+  redirect: 'homepage',
+});
 </script>

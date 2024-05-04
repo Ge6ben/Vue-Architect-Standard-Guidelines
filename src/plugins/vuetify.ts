@@ -4,7 +4,7 @@ import { en } from 'vuetify/locale';
 import '@mdi/font/css/materialdesignicons.css';
 
 import { aliases } from 'vuetify/iconsets/mdi';
-import { useDark } from '@vueuse/core';
+// import { useDark } from '@vueuse/core';
 import { md3 } from 'vuetify/blueprints';
 import type { VDataTable } from 'vuetify/lib/components/index.mjs';
 import { mdi } from 'vuetify/iconsets/mdi';
@@ -48,7 +48,7 @@ export default createVuetify({
     VChip: { rounded: 'lg' },
   },
   theme: {
-    defaultTheme: useDark().value ? 'dark' : 'light',
+    // defaultTheme: useDark().value ? 'dark' : 'light',
     themes: {
       light: {
         colors: theme,
