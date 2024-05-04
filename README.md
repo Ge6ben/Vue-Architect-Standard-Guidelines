@@ -82,6 +82,7 @@ Note that the use of `engine-strict` didn't specifically say anything about `yar
 
 - 🧼 [ESLint flat config](https://eslint.org/docs/latest/use/configure/configuration-files-new) with adapted [@nuxt/eslint](https://github.com/nuxt/eslint), future-proof
 - 🔔 Notification Service 
+- 👩🏾‍💻 Programmer Error Service
 
 
 ---
@@ -233,6 +234,7 @@ or in the case of multiple issues:
 - [Embrace the Future: Navigating the New Flat Configuration of ESLint](https://www.raulmelo.me/en/blog/migration-eslint-to-flat-config)
 - [Implement Flat Config](https://github.com/eslint/eslint/issues/13481)
 - [Nuxt Presets for Flat Config](https://nuxt.com/blog/eslint-module#eslint-flat-config)
+
 
 
 
