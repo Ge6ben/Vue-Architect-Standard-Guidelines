@@ -1,10 +1,13 @@
 import 'vuetify/styles';
 import { createVuetify } from 'vuetify';
-import { en, zhHans } from 'vuetify/locale';
-import { aliases, mdi } from 'vuetify/iconsets/mdi-svg';
+import { en } from 'vuetify/locale';
+import '@mdi/font/css/materialdesignicons.css';
+
+import { aliases } from 'vuetify/iconsets/mdi';
 import { useDark } from '@vueuse/core';
 import { md3 } from 'vuetify/blueprints';
 import type { VDataTable } from 'vuetify/lib/components/index.mjs';
+import { mdi } from 'vuetify/iconsets/mdi';
 
 export type DataTableHeaders = InstanceType<
   typeof VDataTable
@@ -17,9 +20,9 @@ const theme = {
 export default createVuetify({
   blueprint: md3,
   locale: {
-    locale: 'zhHans',
+    locale: 'en',
     fallback: 'en',
-    messages: { zhHans, en },
+    messages: { en },
   },
   defaults: {
     VSwitch: {
