@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-main>
+      <h1 class="text-center">Default Layout</h1>
       <router-view />
     </v-main>
 
