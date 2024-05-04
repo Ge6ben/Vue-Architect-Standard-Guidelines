@@ -242,3 +242,4 @@ or in the case of multiple issues:
 # TODO
 - [Use vee-validate and Zod for fields validations](https://vee-validate.logaretm.com/v4/integrations/zod-schema-validation/)
 - 🧭 Auto generated navigation drawer and breadcrumbs based on routes
+- Add interceptor and handle errors in the interceptor.
