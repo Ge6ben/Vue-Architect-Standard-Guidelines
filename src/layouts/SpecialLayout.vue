@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <h3>Special Layout</h3>
+      <h1 class="text-center">Special Layout</h1>
       <router-view />
     </v-main>
 

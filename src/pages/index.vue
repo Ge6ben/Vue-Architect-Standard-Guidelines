@@ -3,6 +3,6 @@
 </template>
 <script setup lang="ts">
 definePage({
-  redirect: 'homepage',
+  redirect: 'login',
 });
 </script>
