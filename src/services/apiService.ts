@@ -4,7 +4,7 @@ import ApiService from './ApiService';
 const apiService = new ApiService();
 
 // Example usage:
-apiService.get('/users').then(users => {
+apiService.get('/olympic-winners.json').then(users => {
     console.log(users);
 }).catch(error => {
     console.error('Failed to fetch users:', error);
