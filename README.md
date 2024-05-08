@@ -86,6 +86,8 @@ Note that the use of `engine-strict` didn't specifically say anything about `yar
 - 👩🏾‍💻 Programmer Error Service
 - 🛠️ Api Service
 - ⚡ Axios Interceptor
+- Handle Error Page
+- Global styles
 
 
 
