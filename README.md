@@ -65,6 +65,7 @@ Note that the use of `engine-strict` didn't specifically say anything about `yar
 "engines": {
 "node": ">=20.12.2",
 "npm": "kindly-use-yarn",
+"pnpm": "kindly-use-yarn",
 "yarn": ">=1.22.22"
 }
 ```
