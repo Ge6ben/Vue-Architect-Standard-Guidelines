@@ -32,7 +32,7 @@ Resolved Issues: []().
 - [ ] Ensure all functions handle undefined, default params, and no array.
 - [ ] I have handled format date and handle  different time zone when needed
 - [ ] I have handle text truncate when expected long texts.
-- [ ] I didnt repast myself  😑 - Promise - DRY
+- [ ] I didn't repeat myself  😑 - Promise - DRY
 - [ ] Using loading state for async functions.
 - [ ] Handle No data state for async functions
 - [ ] It support different browsers like (Opera , Firefox , Safari , Brave ...etc).
