@@ -17,7 +17,9 @@ import { createApp } from 'vue';
 const app = createApp(App);
 // Immediately Invoked Function Expression (IIFE)
 (() => {
-  console.log('I am running before app loads! 🚀');
+  console.log(
+    'This code is running before the app is fully loaded and mounted to the DOM! 🚀',
+  );
   registerPlugins(app);
 
   app.mount('#app');

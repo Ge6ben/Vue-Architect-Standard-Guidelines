@@ -14,39 +14,17 @@ This is the official scaffolding tool for Vuetify, designed to give you a head s
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
 
 - 🧼 [ESLint flat config](https://eslint.org/docs/latest/use/configure/configuration-files-new) with adapted [@nuxt/eslint](https://github.com/nuxt/eslint), future-proof
-- 🔔 Notification Service
-- 👩🏾‍💻 Programmer Error Service
-- 🛠️ Api Service
-- ⚡ Axios Interceptor
+- 🛠️ [Api Service](./src/services/apiService.ts)
+- 🔔 [ Notification Service ](./src/services/alertServices.ts)
+- 👩🏾‍💻 [Programmer Error Service](./src/services/programmerError.ts)
+- ⚡ [Axios Interceptor](./src/plugins/axios.ts)
 - Handle Error Page
-- Global styles
-
----
-
-## 💿 Install
-
-Set up your project using your preferred package manager. Use the corresponding command to install the dependencies:
-
-| Package Manager                             | Command        |
-| ------------------------------------------- | -------------- |
-| [yarn](https://yarnpkg.com/getting-started) | `yarn install` |
-
-### Starting the Development Server
-
-To start the development server with hot-reload, run the following command. The server will be accessible at [http://localhost:3000](http://localhost:3000):
-
-```bash
-yarn dev
-```
-
-### Building for Production
-
-To build your project for production, use:
-
-```bash
-yarn build
-```
-
+- [Global styles](src/assets/styles/global.css)
+- [Common Github settings that generally should always be used with your language specific settings](.gitattributes).
+- [ Pull Request Form Template](./.github/pull_request_template.md)
+- Engine Locking for Node and Yarn
+- [Configuration setup for Vuetify](./src/plugins/vuetify.ts)
+- Contribution Guide - Commit Conventions
 ---
 
 ## Engine Locking
@@ -88,8 +66,46 @@ Note that the use of `engine-strict` didn't specifically say anything about `yar
 "yarn": ">=1.22.22"
 }
 ```
+---
 
+# Nice To have (Optional)
 
+- Automatically open localhost in your browser by adding -`-open --port 8080`
+
+`package.json`
+
+```json
+{
+ "scripts": {
+    "dev": "vite --open --port 8080"
+
+}
+```
+
+---
+## 💿 Install
+
+Set up your project using your preferred package manager. Use the corresponding command to install the dependencies:
+
+| Package Manager                             | Command        |
+| ------------------------------------------- | -------------- |
+| [yarn](https://yarnpkg.com/getting-started) | `yarn install` |
+
+### Starting the Development Server
+
+To start the development server with hot-reload, run the following command. The server will be accessible at [http://localhost:3000](http://localhost:3000):
+
+```bash
+yarn dev
+```
+
+### Building for Production
+
+To build your project for production, use:
+
+```bash
+yarn build
+```
 
 ---
 
@@ -211,21 +227,7 @@ or in the case of multiple issues:
 
 `Closes #123, #245, #992`
 
----
 
-# Nice To have (Optional)
-
-- Automatically open localhost in your browser by adding -`-open --port 8080`
-
-`package.json`
-
-```json
-{
- "scripts": {
-    "dev": "vite --open --port 8080"
-
-}
-```
 
 ---
 
