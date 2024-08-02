@@ -25,6 +25,7 @@ This is the official scaffolding tool for Vuetify, designed to give you a head s
 - 🔐[Engine Locking for Node and Yarn](enginLock.md)
 - ⚙️[Configuration setup for Vuetify](./src/plugins/vuetify.ts)
 - 🤝🏼[Quasar Commit Conventions](https://quasar.dev/how-to-contribute/commit-conventions)
+- 📦[i18n Configuration - multi language support](./src/plugins/i18n.ts)
 
 ---
 
