@@ -4,7 +4,7 @@ This is the official scaffolding tool for Vuetify, designed to give you a head s
 
 ---
 # Features
-
+- 🇹Typescript Support
 - 🗂️ [File based routing](./src/pages)
 
 - 📑 [Layout system](./src/layouts)
@@ -13,18 +13,19 @@ This is the official scaffolding tool for Vuetify, designed to give you a head s
 
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
 
-- 🧼 [ESLint flat config](https://eslint.org/docs/latest/use/configure/configuration-files-new) with adapted [@nuxt/eslint](https://github.com/nuxt/eslint), future-proof
+- 🧼 Prettier and [ESLint flat config](https://eslint.org/docs/latest/use/configure/configuration-files-new) with adapted [@nuxt/eslint](https://github.com/nuxt/eslint), future-proof
 - 🛠️ [Api Service](./src/services/apiService.ts)
 - 🔔 [ Notification Service ](./src/services/alertServices.ts)
 - 👩🏾‍💻 [Programmer Error Service](./src/services/programmerError.ts)
 - ⚡ [Axios Interceptor](./src/plugins/axios.ts)
-- Handle Error Page
-- [Global styles](src/assets/styles/global.css)
-- [Common Github settings that generally should always be used with your language specific settings](.gitattributes).
-- [ Pull Request Form Template](./.github/pull_request_template.md)
-- [Engine Locking for Node and Yarn](enginLock.md)
-- [Configuration setup for Vuetify](./src/plugins/vuetify.ts)
-- [Quasar Commit Conventions](https://quasar.dev/how-to-contribute/commit-conventions)
+- 🚨 Handle Error Page
+- 🎨[Global styles](src/assets/styles/global.css)
+- </> [Common Github settings that generally should always be used with your language specific settings](.gitattributes).
+- 🔎[ Pull Request Form Template](./.github/pull_request_template.md)
+- 🔐[Engine Locking for Node and Yarn](enginLock.md)
+- ⚙️[Configuration setup for Vuetify](./src/plugins/vuetify.ts)
+- 🤝🏼[Quasar Commit Conventions](https://quasar.dev/how-to-contribute/commit-conventions)
+
 ---
 
 ---
