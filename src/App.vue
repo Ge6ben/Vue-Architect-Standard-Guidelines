@@ -3,6 +3,7 @@
     <v-main>
       <snackbar />
       <router-view />
+      <!--      <div>{{ $t('overview') }}</div>-->
     </v-main>
   </v-app>
 </template>
