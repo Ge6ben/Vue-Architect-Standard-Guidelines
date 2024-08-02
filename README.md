@@ -3,6 +3,25 @@
 This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
 
 ---
+# Features
+
+- 🗂️ [File based routing](./src/pages)
+
+- 📑 [Layout system](./src/layouts)
+
+- 🍍 [State Management via Pinia](https://pinia.vuejs.org/)
+
+- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
+
+- 🧼 [ESLint flat config](https://eslint.org/docs/latest/use/configure/configuration-files-new) with adapted [@nuxt/eslint](https://github.com/nuxt/eslint), future-proof
+- 🔔 Notification Service
+- 👩🏾‍💻 Programmer Error Service
+- 🛠️ Api Service
+- ⚡ Axios Interceptor
+- Handle Error Page
+- Global styles
+
+---
 
 ## 💿 Install
 
@@ -69,25 +88,6 @@ Note that the use of `engine-strict` didn't specifically say anything about `yar
 "yarn": ">=1.22.22"
 }
 ```
-# Features
-
- 
- 
-- 🗂️ [File based routing](./src/pages)
-
-- 📑 [Layout system](./src/layouts)
-
-- 🍍 [State Management via Pinia](https://pinia.vuejs.org/)
-
-- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
-
-- 🧼 [ESLint flat config](https://eslint.org/docs/latest/use/configure/configuration-files-new) with adapted [@nuxt/eslint](https://github.com/nuxt/eslint), future-proof
-- 🔔 Notification Service 
-- 👩🏾‍💻 Programmer Error Service
-- 🛠️ Api Service
-- ⚡ Axios Interceptor
-- Handle Error Page
-- Global styles
 
 
 
